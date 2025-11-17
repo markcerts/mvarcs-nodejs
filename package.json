@@ -1,6 +1,6 @@
 {
   "name": "mvarcs",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "mvarcs provides a collection of Root Certificates for validating the trustworthiness of Mark Certificates such as Verified Mark Certificates (VMC) and Common Mark Certificates (CMC) used in BIMI (Brand Indicators for Message Identification).",
   "keywords": [
     "BIMI",
