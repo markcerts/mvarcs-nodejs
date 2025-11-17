@@ -12,6 +12,6 @@ const mvarcs = new URL("file://" + certPath);
 mvarcs.where = () => certPath;
 mvarcs.contents = (encoding = "utf8") => readFileSync(certPath, encoding);
 mvarcs.source = source;
-mvarcs.version = "0.0.2";
+mvarcs.version = "0.0.3";
 
 module.exports = mvarcs;
