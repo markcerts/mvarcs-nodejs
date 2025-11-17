@@ -1,0 +1,37 @@
+{
+  "name": "mvarcs",
+  "version": "0.0.2",
+  "description": "mvarcs provides a collection of Root Certificates for validating the trustworthiness of Mark Certificates such as Verified Mark Certificates (VMC) and Common Mark Certificates (CMC) used in BIMI (Brand Indicators for Message Identification).",
+  "keywords": [
+    "BIMI",
+    "VMC",
+    "CMC",
+    "Verification",
+    "Trusted",
+    "Certificates",
+    "Certificate Authorities"
+  ],
+  "engines": {
+		"node": ">=8"
+	},
+  "homepage": "https://github.com/markcerts/mvarcs-nodejs#readme",
+  "bugs": {
+    "url": "https://github.com/markcerts/mvarcs-nodejs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markcerts/mvarcs-nodejs.git"
+  },
+  "license": "Unlicense",
+	"author": {
+		"name": "OllieJC",
+		"email": "mvarcs-npm@olliejc.uk"
+	},
+  "main": "index.js",
+  "bin": {
+    "mvarcs": "bin/mvarcs.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  }
+}
